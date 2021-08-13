@@ -1,0 +1,242 @@
+/** {
+  border: 2px solid blue;
+}*/
+
+h1, h2, h3, body, p, h4, h5, h6 {
+  margin: 0;
+}
+
+
+h1 {
+  font-family: "Playfairr Display", serif;
+  font-size: 64px;
+  font-weight:  normal;
+
+}
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open sans"; sans-serif;
+  
+}
+
+h3{
+  font-family: "Open sans"; sans-serif;
+font-weight: normal;
+font-size: 16px;
+
+}
+
+.t60 {
+color: rgba(0, 0, 0, 0.6);
+
+}
+.profissao {
+  font-size: 24px;
+  
+}
+
+body {
+  background-color: #e5e5e5;
+  
+}
+
+header {
+  background-color: white;
+  padding: 40px 64px; 
+
+
+}
+
+.dados {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+ border: 4px solid #4200ff;  
+ border-radius: 50%;
+ margin-bottom:  -128px;
+ margin-right: 26px;
+}
+
+main {
+  padding: 40px 70px;
+  display: flex;
+  
+}
+.coluna-menor {
+  margin-top: 70px;
+  width: 250px;
+}
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 5px;
+
+}
+.experiencias .linha {
+  border-color: #4200ff
+}
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+ 
+  
+}
+.conteudo {
+  display: inline-block;
+}
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+.coluna-menor li {
+  margin-top: 32px;
+  display: flex;
+}
+.foto1{
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px; 
+}
+.conteudo2{
+  display: inline-block;
+ 
+  
+}
+
+.formacao{
+  margin-top: 32px;
+  font-size: 24px;
+  
+}
+.formacao .linha2 {
+  border-color: #ffc700
+}
+ .outro {
+  font-family: "Open sans"; sans-serif;
+  font-size: 16px;
+ }
+.linha2 {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+
+.conteudo3 {
+  margin-left: 5px;
+  display: inline-block;
+  
+  
+}
+
+.foto2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 8px;
+
+}
+.habilidades h2{
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-left: 12px;
+
+}
+.caixa1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coluna-maior {
+  margin-left: 24px;
+
+}
+h4 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.caixa {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+  width: 280px;
+ 
+}
+
+.caixa li{
+  margin-top: 32px;
+}
+.caixa li:first-child {
+  margin-top: 0;
+}
+.caixa p{
+  font-size: 20px;
+}
+.progresso {
+  width: 100%;
+  display: flex;
+
+}
+.barra {
+  margin-top: 6px;
+  width: 20%;
+  height: 4px;
+ background-color: #4200ff;
+}
+.incompleto {
+  opacity: 0.2;
+}
+//*.projetos img{
+  width: 50px;
+  height: 50px;
+}
+.projetos{
+  margin-top: 1000px;
+  justify-content: center;
+}
+
+.projetos ul {
+  display: flex;
+flex-wrap: wrap;
+  margin: -0.75rem;
+  
+}
+
+.projetos li {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 24rem;
+  padding: 1.5rem;
+  margin: 0.75rem;
+  
+}
+.projetos h5{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.projetos p {
+  margin: 1rem 0 1.5rem;
+}
+
+.projetos a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 1.5rem;
+  background-color: #4200ff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  line-height: 1.375;
+  font-weight: 600;
+  border: 0;
+}
